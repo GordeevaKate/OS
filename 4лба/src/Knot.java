@@ -3,7 +3,7 @@ public class Knot {
 	private boolean selectFlag;
 	private Knot knot;
 
-	public Knot(int fileId, int knotId) {
+	public Knot(int knotId) {
 		this.knotId = knotId;
 	}
 	public void setKnot(int fileId, int knotId) {
