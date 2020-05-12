@@ -6,8 +6,8 @@ public class Knot {
 	public Knot(int knotId) {
 		this.knotId = knotId;
 	}
-	public void setKnot(int fileId, int knotId) {
-		knot = new Knot(fileId, knotId);
+	public void setKnot(int knotId) {
+		knot = new Knot(knotId);
 	}
 	public Knot nextNode() {
 		return knot;
